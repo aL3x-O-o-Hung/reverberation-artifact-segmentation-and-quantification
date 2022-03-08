@@ -1,6 +1,6 @@
-# Weakly- and Semi-Supervised Probabilistic Segmentation and Quantification of Ultrasound Needle-Reverberation Artifacts to Allow Better AI Understanding of Tissue Beneath Needles
+# Weakly-and Semisupervised Probabilistic Segmentation and Quantification of Reverberation Artifacts
 
-Official code for [Weakly- and Semi-Supervised Probabilistic Segmentation and Quantification of Ultrasound Needle-Reverberation Artifacts to Allow Better AI Understanding of Tissue Beneath Needles](https://arxiv.org/pdf/2011.11958.pdf).
+Official code for [Weakly-and Semisupervised Probabilistic Segmentation and Quantification of Reverberation Artifacts](https://downloads.spj.sciencemag.org/bmef/2022/9837076.pdf).
 
 # Pretrained Model
 The pretrained model for the second network in our pipeline can be found [here](https://drive.google.com/file/d/1WNSb3xNdmy8hk2SwlhCxxTl-LGH-fqvp/view?usp=sharing), where you should initialize the network by the following parameters:
@@ -17,10 +17,12 @@ The [training data](https://drive.google.com/file/d/1jgg3Sw2VmiEMtI0F5a8SMc-xLNb
 # Credit 
 If you use the code or the paper in any of your work, please remember to cite us
 ```bash
-@article{hung2020weakly,
-  title={Weakly-and Semi-Supervised Probabilistic Segmentation and Quantification of Ultrasound Needle-Reverberation Artifacts to Allow Better AI Understanding of Tissue Beneath Needles},
+@article{hung2022weakly,
+  title={Weakly-and Semisupervised Probabilistic Segmentation and Quantification of Reverberation Artifacts},
   author={Hung, Alex Ling Yu and Chen, Edward and Galeotti, John},
-  journal={arXiv preprint arXiv:2011.11958},
-  year={2020}
+  journal={BME Frontiers},
+  volume={2022},
+  year={2022},
+  publisher={AAAS}
 }
 ```
